@@ -1,11 +1,14 @@
 # React Weather Dashboard
 
-A simple React application that fetches real-time weather data using the OpenWeather API.
+## Live Demo
+https://your-app.netlify.app
+
+A simple React application that fetches real time weather data using the OpenWeather API.
 
 ## Features
 - Search weather by city
 - Displays temperature and condition
-- Real-time data from API
+- Real time data from API
 - Clean responsive UI
 
 ## Tech Stack
