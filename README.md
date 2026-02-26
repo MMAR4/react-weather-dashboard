@@ -1,7 +1,7 @@
 # React Weather Dashboard
 
 ## Live Demo
-https://your-app.netlify.app
+https://myreact-weather-dashboard.netlify.app/
 
 A simple React application that fetches real time weather data using the OpenWeather API.
 
