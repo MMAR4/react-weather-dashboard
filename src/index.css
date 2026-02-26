@@ -1,0 +1,106 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+form {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 320px;
+}
+
+
+h1 {
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+input {
+  width: 70%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+}
+
+
+button {
+  padding: 0.55rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  margin: 15px;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background-color: #535bf2;
+  transform: scale(1.05);
+}
+
+/* Weather Card */
+.card {
+  margin-top: 1.rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #242424;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.displayCity {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+
+.displayTemperature {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0.4rem 0;
+  color: #646cff;
+}
+
+
+.displayWeatherCondition {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+  text-transform: capitalize;
+}
+
+
+.displayWeatherIcon {
+  width: 70px;
+  height: 70px;
+}
